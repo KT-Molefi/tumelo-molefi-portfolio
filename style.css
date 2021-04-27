@@ -16,13 +16,6 @@
     background-size: cover;
     background-position: center;
 }
-
-.navbar-brand img
-{
-    
-    height: 60px;
-    padding-left: 30px;
-}
 .navbar-nav li
 {
     padding: 0 10px
@@ -35,7 +28,7 @@
 
 .navbar a:hover
 {
-    color: rgba(101, 143, 165, 0.8)!important;
+    color: antiquewhite!important;
 }
 
 .navbar-toggler
@@ -52,7 +45,7 @@
 /*!------about-------*/
 #about
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/bg.jpg);
+    background-image: url(image/bg.jpg);
     background-size: cover;
     background-position: center;
     color: antiquewhite !important;
@@ -61,15 +54,33 @@
     padding-bottom: 50px;
     color: #555;
 }
+#about img {
+    border-radius: 50%;
+    border: 1px solid antiquewhite;
+    padding: 5px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #about h1
 {
     text-align: center;
-    color: #555 !important;
+    color: antiquewhite !important;
     padding-bottom: 10px;
 }
 .about-content
 {
-    padding-top: 20px;
+    background: linear-gradient(rgba(108, 108, 108, 0.8),rgba(0,0,0,0.8));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills-bar-content
+{
+    background: linear-gradient(rgba(108, 108, 108, 0.8),rgba(0,0,0,0.8));
+    margin-bottom: 6px;
+    font-weight: 600px;
 }
 .skills-bar p
 {
@@ -88,7 +99,7 @@
     /*!-------projects-------*/
 #projects
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/bg.jpg);
+    background-image: url(image/bg.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
@@ -99,7 +110,7 @@
 #projects h1
 {
     text-align: center;
-    color: #555 !important;
+    color: antiquewhite !important;
     padding-bottom: 10px;
 }
 #projects h1::after
@@ -113,7 +124,8 @@
 }
 .projects
 {
-    margin-top: 40px;
+    background: linear-gradient(rgba(108, 108, 108, 0.8),rgba(0,0,0,0.8));
+    margin: 0px;
     color: aliceblue;
 }
 .icon
@@ -133,6 +145,11 @@
     margin-top: 20px;
     color: antiquewhite;
 }
+.Take-To-Project p
+{
+    border: 1px solid #fff;
+    border-radius: 5%;
+}
 #projects h3
 {
     font-size: 30px;
@@ -147,7 +164,7 @@
 }
 .col-md-3
 {
-    margin: 70px auto;
+    margin: 0px auto;
 }
 
 /*--------footer------*/
